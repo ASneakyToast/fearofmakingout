@@ -12,7 +12,7 @@ html, body {
   place-items: center;
 }
 
-.overlay > aside {
+.overlay > figure {
   display: flex;
   place-items: center;
   z-index: -1;
