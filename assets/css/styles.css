@@ -5,6 +5,8 @@ body, figure {
 
 img {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -15,16 +17,37 @@ html, body {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: black;
+}
+
 #wrapper {
   height: 100%;
 }
-  
 
 /* homepage */
 
 #landing {
   height: 100%;
-  background-color: orange;
+}
+
+#landing > main {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+#landing > main h1 {
+  font-size: 2.2em;
+}
+
+#landing > main p {
+  font-size: 1.6em;
 }
 
 .overlay > main {
@@ -38,4 +61,6 @@ html, body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 100%;
+  z-index: -1;
 }
