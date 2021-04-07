@@ -1,5 +1,5 @@
 /* css reset */
-body, figure {
+body, figure, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -25,6 +25,7 @@ img {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 #wrapper {
@@ -35,11 +36,14 @@ a {
 
 #landing {
   height: 100%;
+  display: flex;
+  place-items: center;
+  justify-content: center;
 }
 
 #landing > main {
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-gap: 1.3em;
 }
 
 #landing > main h1 {
@@ -51,7 +55,6 @@ a {
 }
 
 .overlay > main {
-  height: 100%;
   display: flex;
   justify-content: center;
   place-items: center;
