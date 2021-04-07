@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: fearofmakingout.com
+Token: 7b71da6b30a74b9524b638b0bcc23b0c595b9bb7a83eb8cc7fe6caa3385dfb1d
